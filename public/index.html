@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+      <nav id="nav" class="nav">
+        <div class="default-nav">
+          <div class="main-nav">
+            <div class="toggle"></div>
+            <div class="main-nav-item">
+                <span id="counter">0</span> utilisateurs connectés
+            </div>
+            <div class="options"></div>
+          </div>
+        </div>
+      </nav>
+      <div id="inner" class="inner">
+        <div id="content" class="content"></div>
+      </div>
+      <div id="bottom" class="bottom">
+        <textarea id="input" class="input"></textarea>
+        <div id="send" class="send"></div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script src="http://localhost:8100/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
