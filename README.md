@@ -18,13 +18,13 @@ Les fichiers du client se trouve dans le dossier public. J'ai utilisé [http-ser
 
 ### Connexion au serveur (local)
 
-```JavaScript
+```js
 const socket = io.connect("localhost:8100")
 ```
 
 ### Mise a jour du compteur d'utilisateur
 
-```JavaScript
+```js
 socket.on("counter", val => {
   $("#counter").text(val)
 })
@@ -32,13 +32,13 @@ socket.on("counter", val => {
 
 ### Envoi d'un message
 
-```JavaScript
+```js
 socket.emit("message", text)
 ```
 
 ### Reception d'un message
 
-```JavaScript
+```js
 socket.on("message", message => {
   messenger.recieve(message)
 })
