@@ -46,6 +46,11 @@ socket.on("message", message => {
 
 ## Server
 
+Il faut installer les dépendances avec NPM. Taper la commande suivante dans le dossier du projet :
+```shell
+npm install
+```
+
 Pour lancer le serveur il suffit de taper la commande suivante :
 ```shell
 node server.js
