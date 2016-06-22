@@ -5,8 +5,8 @@ Demo chat
 
 ## Socket.io
 
-`socket.emit` : permet d'envoyer un message au client
-`socket.broadcast.emit` : permet d'envoyer un message a TOUS les clients
+* `socket.emit` : permet d'envoyer un message au client
+* `socket.broadcast.emit` : permet d'envoyer un message a TOUS les clients
 
 [Socket.io](http://socket.io)
 
