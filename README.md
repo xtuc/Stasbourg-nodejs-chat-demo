@@ -1,6 +1,8 @@
 Demo chat
 ===
 
+![demo](demo.png)
+
 **Attention** : les sources du front-end ne m'appartiennent pas. Voici les sources : [sources](https://codepen.io/blaketarter/pen/emWbYm).
 
 ## Socket.io
