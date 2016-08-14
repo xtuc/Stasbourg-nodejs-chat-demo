@@ -6,15 +6,15 @@ Demo chat
 ## Socket.io
 
 * `socket.emit` : permet d'envoyer un message au client
-* `socket.broadcast.emit` : permet d'envoyer un message a TOUS les clients
+* `socket.broadcast.emit` : permet d'envoyer un message à TOUS les clients
 
 [Socket.io](http://socket.io)
 
 ## Client
 
-Les fichiers du client se trouve dans le dossier public. J'ai utilisé [http-server](https://www.npmjs.com/package/http-server) pour servir ces fichiers.
+Les fichiers du client se trouvent dans le dossier public. J'ai utilisé [http-server](https://www.npmjs.com/package/http-server) pour servir ces fichiers.
 
-`io` est définit dans le script socket.io client importé depuis le HTML.
+`io` est défini dans le script socket.io client importé depuis le HTML.
 
 ### Connexion au serveur (local)
 
@@ -36,7 +36,7 @@ socket.on("counter", val => {
 socket.emit("message", text)
 ```
 
-### Reception d'un message
+### Réception d'un message
 
 ```js
 socket.on("message", message => {
