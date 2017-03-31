@@ -1,6 +1,8 @@
 Demo chat
 ===
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/xtuc/Stasbourg-nodejs-chat-demo.svg)](https://greenkeeper.io/)
+
 ![demo](demo.png)
 
 **Attention** : les sources du front-end ne m'appartiennent pas. Voici les sources : [sources](https://codepen.io/blaketarter/pen/emWbYm).
